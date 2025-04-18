@@ -85,7 +85,7 @@
   
   .history {
     min-height: 75vh;
-    background-image: url("/src/assets/img_background.jpg");
+    background-image: url(../assets/img_background.jpg);
     background-size: cover; 
     background-position: center; 
     padding: 60px 0px 60px; 
