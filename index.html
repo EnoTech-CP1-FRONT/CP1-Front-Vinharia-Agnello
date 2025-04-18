@@ -1,28 +1,156 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./src/css/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="shortcut icon" href="./src/assets/shortcut_icon.jpg" type="image/x-icon">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <script defer src="./src/Js/script.js"></script>
-    <title>Vinharia Agnello</title>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./src/css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="shortcut icon" href="./src/assets/shortcut_icon.jpg" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <script defer src="./src/Js/script.js"></script>
+  <title>Vinharia Agnello</title>
 </head>
+
 <body>
-    <header class="header">
-        <nav class="nav">
-            <img src="./src/assets/logo.png" alt="Logo da empresa" class="logo"/>
-            <button class="btn_navbar"></button>
-            <ul class="lista-navbar">
-                <li><a href="#sobre_nos">Sobre nós</a></li>
-                <li><a href="#catalogo">Vinhos</a></li>
-                <li><a href="#">Contato</a></li>
-            </ul>
-        </nav>
-    </header>
+  <header class="header">
+    <nav class="nav">
+      <img src="./src/assets/logo.png" alt="Logo da empresa" class="logo"/>
+      <button class="btn_navbar"></button>
+      <ul class="lista-navbar">
+        <li><a href="#sobre_nos">Sobre nós</a></li>
+        <li><a href="#catalogo">Vinhos</a></li>
+        <li><a href="#">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="sobre_nos" class="history">
+      <h1>Nossa Historia</h1>
+      <div class="linha"></div>
+
+      <div class="history_content">
+        <div class="history_text">
+          <h2>Um legado de excelência</h2>
+          <p>
+            Por mais de um século, a família Agnello cultiva vinhedos no
+            coraçãoda região vinícola, transmitindo tradições e expertise por
+            cincogerações de apaixonados produtores de vinho. Nosso
+            compromisso com práticas de cultivo sustentáveis e
+            aatençãometiculosa aos detalhes renderam à Agnello Wines o
+            reconhecimentocomoum dos principais produtores de vinho da região.
+          </p>
+
+          <div class="premios">
+            <div class="premio imagem_premios premios_paragrafo">
+              <img class="grape" src="./src/assets/icon_grape.png" alt="icone de uma uva" />
+              <h3>Melhores uvas</h3>
+              <p>
+                Variedades cuidadosamente selecionadas cultivadas em condições
+                ótimas.
+              </p>
+            </div>
+            <div class="premio imagem_premios premios_paragrafo">
+              <img class="medalha" src="./src/assets/icon_medalha.png" alt="icone de uma medalha." />
+              <h3>Premios</h3>
+              <p>
+                Reconhecido internacionalmente pela qualidade excepcional.
+              </p>
+            </div>
+            <div class="premio imagem_premios premios_paragrafo">
+              <img src="./src/assets/icon_folha.png" alt="Icone de uma icon_folha" class="folha" />
+              <h3>Sustentabilidade</h3>
+              <p>Práticas ecologicamente corretas do vinhedo à garrafa.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="catalogo" class="catalogo">
+      <h1>Melhores Seleções</h1>
+      <div class="linha gap_linha"></div>
+
+      <div class="produtos">
+        <div class="produto produto_imagem">
+          <img src="./src/assets/vinho_branco.jpg" alt="Foto de uma garrafa de vinho." />
+          <h2>Reserve Cabernet Sauvignon</h2>
+          <p>2020 Vintage</p>
+          <p>
+            Encorpado e robusto com notas de amora, cedro e chocolate.
+          </p>
+          <div class="comprar">
+            <p class="preco">R$ 200,00</p>
+            <button class="btn_comprar" type="submit">Comprar</button>
+          </div>
+        </div>
+
+        <div class="produto produto_imagem">
+          <img src="./src/assets/vinho_preto.jpg" alt="Foto de uma garrafa de vinho preta">
+          <h2>Signature Chardonnay</h2>
+          <p>2020 Vintage</p>
+          <p>Fresco e elegante com toques de maçã, baunilha e carvalho tostado.</p>
+          <div class="comprar">
+            <p class="preco">R$ 400,00</p>
+            <button class="btn_comprar" type="submit">Comprar</button>
+          </div>
+        </div>
+
+        <div class="produto produto_imagem">
+          <img src="./src/assets/kit_vinho.png" alt="Foto de um kit de vinho">
+          <h2>Estate Pinot Noir</h2>
+          <p>2020 Vintage</p>
+          <p>
+            Sedoso e aromático com notas de cereja, pétala de rosa e especiarias.
+          </p>
+          <div class="comprar">
+            <p class="preco">R$ 300,00</p>
+            <button class="btn_comprar" type="submit">Comprar</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer">
+      <ul class="agnello">
+        <h3>Agnello</h3>
+        <p>Elaborando vinhos excepcionais com paixão 
+          <br>
+          e tradição desde 1897.</p>
+        <div class="redes_sociais">
+          <img src="./src/assets/icon_instagram.png" alt="Icone do Instagram">
+          <img src="./src/assets/icon_x.png" alt="Icone da rede social X">
+          <img src="./src/assets/icon_facebook.png" alt="Icone do Facebook">
+          <img src="./src/assets/icon_linkedin.png" alt="Icone do Linkedin">
+        </div>
+      </ul>
+
+      <ul>
+        <h3>Links Rápidos</h3>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Sobre nós</a></li>
+        <li><a href="#">Nossos vinhos</a></li>
+        <li><a href="#">Visita</a></li>
+        <li><a href="#">Contato</a></li>
+      </ul>
     
+      <ul>
+        <h3>Nossos vinhos</h3>
+        <li><a href="#">Red Collection</a></li>
+        <li><a href="#">White Collection</a></li>
+        <li><a href="#">Rosé Collection</a></li>
+        <li><a href="#">Limited Reserves</a></li>
+        <li><a href="#">Gift Sets</a></li>
+      </ul>
+
+      <ul class="novidades">
+        <h3>Novidades</h3>
+        <p>Inscreva -se para receber atualizações sobre novos lançamentos, ofertas especiais e próximos eventos.</p>
+      </ul>
+    </div>
+  </footer>
 </body>
 </html>
